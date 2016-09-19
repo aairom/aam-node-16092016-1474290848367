@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: aam-node-16092016
+  host: aam-node-16092016
+  disk_quota: 1024M
+  services:
+  - aam-node-16092016-cloudantNoSQLDB
